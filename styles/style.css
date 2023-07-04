@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+/* #127369 #10403B #8AA6A3 #4C5958 #BFBFBF*/
+body{
+    margin: 0;
+    padding-bottom: 3em;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    background-color: #BFBFBF;
+
+}
+
+nav{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #10403B;
+    color: #8AA6A3;
+    padding-left: 20px;
+    padding-top: 3em;
+}
+
+article{
+    width: 80vw;
+    height: 100vh;
+}
+
+a:hover{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+a:active{
+    color: #127369;
+}
+
+#logo{
+    width: 50px;
+    margin-bottom: 3em;
+    animation: swing 5s infinite;
+}
+
+.recipe_names{
+    color: #8AA6A3;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+@keyframes swing {
+    45%{
+        transform: rotate(35deg);
+    }
+
+    90%{
+        transform: rotate(-25deg);
+    }
+
+    100%{
+        transform: rotate(-1deg);
+    }
+}

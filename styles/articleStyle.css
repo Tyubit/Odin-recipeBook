@@ -1,0 +1,26 @@
+.recipe{
+    margin-top: 3em;
+    margin-left: 20px;
+    
+    color: #4C5958;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.steps{
+    margin-left: 15px;
+}
+
+.step-count{
+    font-weight: 600;
+}
+
+.description{
+    margin-left: 15px;
+}
